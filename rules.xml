@@ -1,0 +1,20 @@
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <theme href="theme/theme.html" />
+    
+    <replace theme="/html/head/title" content="/html/head/title"/>
+	<replace css:theme-children="#title" css:content-children="#parent-fieldname-title" />
+    <replace css:theme-children="#content" css:content="#content-core" />
+    <replace css:theme-children="#menu" css:content-children=".navTree" />
+    
+    
+    <!-- External content -->
+ <replace css:theme-children="#external-content" 
+    	css:content-children="html body div#contenido div#cuerpo.clearfix div#columna_derecha div.sitemap div.contentpaneopen div ul.level_0 li ul.level_1" 
+    	href="http://www.almaobservatory.org/en/site-map" method="document"/>
+ 
+   
+   
+</rules>

@@ -1,0 +1,48 @@
+h1 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.headerlink {
+    color: #DDDDDD;
+    font-size: 80%;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+.align-right {
+    float: right;
+    margin: 0 10px;
+    border: dotted #ddd 1px;
+}
+
+.nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+.nav-glyphish-example .ui-btn .ui-icon { 
+	width: 30px!important; 
+	height: 30px!important; 
+	margin-left: -15px !important; 
+	box-shadow: none!important; 
+	-moz-box-shadow: none!important; 
+	-webkit-box-shadow: none!important; 
+	-webkit-border-radius: none !important; 
+	border-radius: none !important; 
+}
+
+
+#header { 
+	background:  url(../images/logo.png) 99% 50%;
+	background-repeat: no-repeat;
+	background-color: #14315A;
+	height: 65px; 
+	border: 1px solid #456F9A;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #254F7A; ;
+	background-repeat: no-repeat;
+	height: 65px; 
+    border: 1px solid #456F9A;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px #254F7A;
+}
+
